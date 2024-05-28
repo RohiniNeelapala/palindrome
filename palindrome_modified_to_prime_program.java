@@ -4,7 +4,7 @@ class Prime
        {
            int num=121,count=0;
 
-	   for(int x=1 ; x<=num/2; x++){
+	   for(int x=1 ; x<=num; x++){
 		
 		if(num%x == 0){
 			count++;
@@ -12,9 +12,9 @@ class Prime
 	    }
 
 
-	    if(count==1){
+	    if(count==2){
 
-                System.out.println(num +" Is Prime");//hlo i am rohini
+                System.out.println(num +" Is Prime");
             }
 	     
             else{
