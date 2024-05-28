@@ -14,7 +14,7 @@ class Prime
 
 	    if(count==1){
 
-                System.out.println(num +" Is Prime");
+                System.out.println(num +" Is Prime");//hlo i am rohini
             }
 	     
             else{
