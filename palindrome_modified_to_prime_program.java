@@ -4,7 +4,7 @@ class Prime
        {
            int num=121,count=0;
 
-	   for(int x=1 ; x<=num; x++){
+	   for(int x=1 ; x<=num; x++){   //this is prime program
 		
 		if(num%x == 0){
 			count++;
